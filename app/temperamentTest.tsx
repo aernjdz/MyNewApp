@@ -1,6 +1,6 @@
 import { router } from "expo-router";
 import React, { useState } from "react";
-import { View, Text, StyleSheet, Pressable, Alert, useWindowDimensions, Animated } from "react-native";
+import { View, Text, StyleSheet, Pressable, Alert, useWindowDimensions} from "react-native";
 
 
 const Temperament = {

@@ -28,7 +28,7 @@ export default function Index() {
       <Text style={styles.title}>📚 Choose a section</Text>
 
       <Button icon="happy-outline" text="Temperament Test" href="/temperamentTest" />
-      {/* <Button icon="document-text-outline" text="TODO List" href="/todoList" /> */}
+      <Button icon="document-text-outline" text="TODO List" href="/list" /> 
       
     </View>
   );

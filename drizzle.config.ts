@@ -5,4 +5,5 @@ export default defineConfig({
     driver: 'expo',
     schema: './store/shema.ts',
     out: './drizzle/migrations',
+    
 });

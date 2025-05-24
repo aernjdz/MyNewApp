@@ -2,6 +2,7 @@ import { Stack } from 'expo-router';
 import { Suspense } from 'react';
 import { ActivityIndicator , View,Text} from 'react-native';
 import { SQLiteProvider, useSQLiteContext } from 'expo-sqlite';
+import { useMigrations } from 'drizzle-orm/expo-sqlite/migrator';
 import { drizzle } from 'drizzle-orm/expo-sqlite';
 import { Provider } from 'react-redux';
 import { store } from '../store/store';

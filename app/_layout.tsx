@@ -7,7 +7,7 @@ import { drizzle } from 'drizzle-orm/expo-sqlite';
 import { Provider } from 'react-redux';
 import { store } from '../store/store';
 import { todosTable } from '../store/shema';
-import migrations from '../drizzle/migrations/migrations';
+import migrations from '../drizzle/migrations';
 const databaseName = 'ToDoList.db';
 
 export default function RootLayout() {
